@@ -6,9 +6,11 @@
     "start": "next start"
   },
   "dependencies": {
+    "@swc/plugin-noop": "^6.0.3",
     "next": "canary",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react-dom": "^19.0.0",
+    "swc-plugin-pre-paths": "^2.0.1"
   },
   "devDependencies": {
     "@types/node": "^22",

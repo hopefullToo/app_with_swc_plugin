@@ -167,7 +167,7 @@
   resolved "https://registry.yarnpkg.com/@next/swc-win32-x64-msvc/-/swc-win32-x64-msvc-15.1.1-canary.26.tgz#d22798b5f20a7bb7ac115373e4f9f0db2e46f994"
   integrity sha512-TcroRkM1ybB4CA2TWZPFYBP6UGnheAD89+1zSgX1qEF3M2OWpI0mzjrbbrDpiG0GZoBfTPYpQx/JyrWqVS3Jyw==
 
-"@swc/counter@0.1.3":
+"@swc/counter@0.1.3", "@swc/counter@^0.1.3":
   version "0.1.3"
   resolved "https://registry.yarnpkg.com/@swc/counter/-/counter-0.1.3.tgz#cc7463bd02949611c6329596fccd2b0ec782b0e9"
   integrity sha512-e2BR4lsJkkRlKZ/qCHPw9ZaSxc0MVUd7gtbtaB7aMvHeJVYe8sOB8DBZkP2DtISHGSku9sCK6T6cnY0CtXrOCQ==
@@ -178,6 +178,13 @@
   integrity sha512-JQ5TuMi45Owi4/BIMAJBoSQoOJu12oOk/gADqlcUL9JEdHB8vyjUSsxqeNXnmXHjYKMi2WcYtezGEEhqUI/E2g==
   dependencies:
     tslib "^2.8.0"
+
+"@swc/plugin-noop@^6.0.3":
+  version "6.0.3"
+  resolved "https://registry.yarnpkg.com/@swc/plugin-noop/-/plugin-noop-6.0.3.tgz#a439086183134630fe3f75c21e6d6ae90232e714"
+  integrity sha512-Idk195ZaeRSOP8Rhgo5FYoIq9LvT3Eg9fmG8LcByHZJQLW6YuJmHXX2RxNXI0O00cnvrhixjemGUvvzwHAEbsw==
+  dependencies:
+    "@swc/counter" "^0.1.3"
 
 "@types/node@^22":
   version "22.10.5"
@@ -369,6 +376,11 @@ styled-jsx@5.1.6:
   integrity sha512-qSVyDTeMotdvQYoHWLNGwRFJHC+i+ZvdBRYosOFgC+Wg1vx4frN2/RG/NA7SYqqvKNLf39P2LSRA2pu6n0XYZA==
   dependencies:
     client-only "0.0.1"
+
+swc-plugin-pre-paths@^2.0.1:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/swc-plugin-pre-paths/-/swc-plugin-pre-paths-2.0.1.tgz#9eeefd50cef1df13ef350ee589082e8418de2807"
+  integrity sha512-DP+pYYMhbp5k0n7Uv8oI6YBhgKo2QrWUboTihX6GsXuxF0GaviH4v8NDpZKW7dedjMnmKjUfaYw4RJU3uqb8vw==
 
 tslib@^2.4.0, tslib@^2.8.0:
   version "2.8.1"

@@ -1,0 +1,33 @@
+---------------------------
+Panic: panicked at /Users/geist/.cargo/registry/src/index.crates.io-6f17d22bba15001f/swc-5.0.2/src/plugin.rs:169:14:
+failed to invoke plugin: failed to invoke plugin on 'Some("/Users/bernd/Projekte/js/next/app_with_swc_plugin/app/page.tsx")'
+
+Caused by:
+    0: failed to invoke `/Users/bernd/Projekte/js/next/app_with_swc_plugin/node_modules/@swc/plugin-noop/swc_plugin_noop.wasm` as js transform plugin at /Users/bernd/Projekte/js/next/app_with_swc_plugin/node_modules/@swc/plugin-noop/swc_plugin_noop.wasm
+    1: wasm plugin bytecheck failed "check bytes error: check failed for tuple struct member 0: check failed for struct member pkg_version: pointer out of bounds: base 0x5f5f8080b84 offset -53202 not in range 0x5f5f8080a00..0x5f5f8080ba0"
+Backtrace:    0: <unknown>
+   1: <unknown>
+   2: <unknown>
+   3: <unknown>
+   4: <unknown>
+   5: <unknown>
+   6: <unknown>
+   7: <unknown>
+   8: <unknown>
+   9: <unknown>
+  10: <unknown>
+  11: <unknown>
+  12: <unknown>
+  13: <unknown>
+  14: <unknown>
+  15: <unknown>
+  16: <unknown>
+  17: <unknown>
+  18: <unknown>
+  19: <unknown>
+  20: <unknown>
+  21: <unknown>
+  22: <unknown>
+  23: <unknown>
+  24: <unknown>
+
